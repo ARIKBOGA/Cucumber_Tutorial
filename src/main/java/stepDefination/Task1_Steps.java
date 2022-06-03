@@ -57,5 +57,6 @@ public class Task1_Steps {
     @Then("^verify success message$")
     public void verify_success_message() {
         contactUsPage.verifySuccessMessage();
+        Driver.closeDriver();
     }
 }

@@ -18,12 +18,9 @@ import org.testng.annotations.AfterClass;
 )
 
 
-
-
-
 public class _0_1_RunnerGeneral extends AbstractTestNGCucumberTests {
     @AfterClass
-    public static void afterClass(){
+    public static void afterClass() {
 
         Reporter.loadXMLConfig("src/main/java/XMLFiles/extendReportSet.xml");
         Reporter.setSystemInfo("QA Tester : ", "Burak Arıkboğa");

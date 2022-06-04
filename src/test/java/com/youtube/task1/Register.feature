@@ -1,4 +1,6 @@
 # Created by burakarikboga at 4.06.2022
+@SmokeTest
+@RegressionTest
 Feature: Register Test
 
   Scenario Outline: Create An Account

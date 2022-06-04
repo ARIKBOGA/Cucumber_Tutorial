@@ -1,4 +1,5 @@
 # Created by burakarikboga at 4.06.2022
+@RegressionTest
 Feature: Register Test
 
   Background:

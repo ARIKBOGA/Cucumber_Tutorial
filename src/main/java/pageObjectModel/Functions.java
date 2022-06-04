@@ -33,5 +33,6 @@ public abstract class Functions {
     public void assertionFunction(WebElement alertMessageElement, String expectedMessage) {
         wait.until(ExpectedConditions.visibilityOf(alertMessageElement));
         Assert.assertEquals(alertMessageElement.getText(), expectedMessage);
+        System.out.println("My message: " + alertMessageElement.getText());
     }
 }

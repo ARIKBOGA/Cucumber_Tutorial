@@ -13,7 +13,7 @@ import org.testng.annotations.AfterClass;
 
         glue = {"stepDefinition"},
 
-        plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport/ExtentReportRegression.html"}
+        plugin = {"com.cucumber.listener.ExtentCucumberFormatter:results/reports/ExtentReport/ExtentReportRegression.html"}
 )
 
 

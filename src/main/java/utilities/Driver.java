@@ -22,4 +22,12 @@ public class Driver {
             driver = null;
         }
     }
+
+    public static void customWait(long seconds) {
+        try {
+            Thread.sleep(seconds * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
